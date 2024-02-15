@@ -34,3 +34,7 @@ N, M = map(int, input().split())
 heights = list(map(int, input().split()))
 
 print(result(N, M, heights))
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4465a3ddbdc3d86a51f702c342c8389df7424d5f

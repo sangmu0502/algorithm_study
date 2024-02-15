@@ -8,6 +8,7 @@
 연산을 사용하는 횟수의 최소값을 출력하시오.
 """
 number = int(input())
+<<<<<<< HEAD
 num = [5, 3, 2]
 result = 0
 while number > 1:
@@ -18,4 +19,18 @@ while number > 1:
         else:
             number = number - 1
             result += 1
+=======
+
+result = 0
+while number > 1:
+    result += 1
+    if (number % 5) == 0:
+        number = number // 5
+    elif (number % 3) == 0:
+        number = number // 3
+    elif (number % 2) > 0:
+        number = number // 2
+    else:
+        number = number - 1 
+>>>>>>> 4465a3ddbdc3d86a51f702c342c8389df7424d5f
 print(result)
